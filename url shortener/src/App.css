@@ -1,0 +1,35 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+.mainbody{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+  justify-content: center;
+  width: 100vw;
+}
+.inputpart{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputpart input{
+  width: 100%;
+  padding: 0.5em;
+  margin: 0.5em;
+  border-radius: 5px;
+  border: 1px solid #646cff;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  color: #646cff;
+  transition: border-color 0.25s;
+}
+
